@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f0eadf;
+    background-repeat: no-repeat;
+    background-size: 600%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    font-family: 'Trebuchet MS';
+    background-image: url("smart bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 220%;
+}
+
+.card {
+    height: 900px;
+    display: inline-block;
+    width: 400px;
+    background: rgba(255, 255, 255, 0.307);
+    margin: 1em;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+    background-color: transparent;
+    box-shadow: 10px 25px 65px 15px rgb(255, 255, 255);
+    margin-right: 5%;
+    margin-left: 13%;
+    backdrop-filter: blur(0.9em);
+    justify-content: center;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+    border-radius: 21px;
+    transition: all 0.4s ease-in-out;
+}
+
+.accessories .card:hover {
+    transform: translateY(-16px);
+    transform: translateX(-16px);
+    border: 1px solid rgb(58, 63, 60);
+    box-shadow: 10px 25px 65px 15px rgb(184, 184, 184);
+    border-radius: 31px;
+}
+
+.card img {
+    width: 80%;
+    height: 400px;
+}
+
+.card h3 {
+    font-size: 1.8em;
+    margin: 0.5em 0;
+    color: rgb(255, 255, 0);
+    font-weight: 700;
+}
+
+.card p {
+    font-size: 1.2em;
+    font-weight: 400;
+    margin: 0.5em 0 1em;
+    color: rgb(204, 255, 0);
+}
+
+p,
+b {
+    color: rgb(25, 247, 0);
+}
+
+.card button {
+    padding: 0.5em 1em;
+    border: none;
+    background-color: #f0eadf;
+    color: rgb(3, 3, 3);
+    cursor: pointer;
+    border-radius: 4px;
+    margin-bottom: 1em;
+    transition: background-color 0.3s, transform 0.2s;
+    border-radius: 11px;
+    font-weight: 600;
+}
+
+.card button:hover {
+    background-color: #e0b9fd;
+    transform: scale(1.1);
+}
+
+#card {
+    color: rgb(208, 255, 146);
+}
+
+footer {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    background-color: #FEF9F0;
+    justify-content: space-around;
+}
+
+.points {
+    color: #9dc1c4;
+    font-size: 30px;
+    font-weight: 600;
+    width: 300px;
+    margin: 26px 0px 10px 15px;
+    padding: 15px 0px 0px 0px;
+}
+
+.f {
+    color: #9dc1c4;
+    text-shadow: 2px 2px 2px #909090;
+}
+
+.footer-li {
+    padding: 20px 10px 2px 0px;
+}
+
+.footer-ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-li a {
+    color: #000000;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.cr {
+    display: flex;
+    background-color: #202A44;
+    font-weight: 900;
+    justify-content: center;
+    margin-bottom: 6%;
+}
+
+.cori {
+    padding-top: 0.5%;
+    color: #fbfcde;
+    text-shadow: 2px 2px 2px #909090;
+    font-size: large;
+    height: 30px;
+    justify-content: center;
+}
+
+#linki,
+#insta {
+    color: rgb(15, 15, 15);
+    font-size: 29px;
+}
+
+i {
+    font-size: large;
+    letter-spacing: 4px;
+}
+
+.linki,
+.insta {
+    color: rgb(15, 15, 15);
+    font: 800;
+    font-size: large;
+    text-shadow: 4px 4px 4px hsl(0, 0%, 73%);
+}
+
+.ab,
+.con,
+.pp,
+.tc {
+    color: rgb(15, 15, 15);
+    font: 800;
+    font-size: x-large;
+    text-shadow: 4px 4px 4px hsl(0, 0%, 73%);
+}
+
+#about,
+#contact {
+    font-size: large;
+    text-shadow: 4px 4px 4px hsl(0, 0%, 73%);
+}
+
+.logob {
+    background-color: #FEF9F0;
+    display: flex;
+    position: relative;
+}
+
+.logopic {
+    padding-top: 7px;
+}
+
+.imgi {
+    height: 60px;
+    width: 90%;
+}
+
+.navi {
+    padding-top: 5px;
+    margin-top: 16px;
+    margin-left: 26%;
+}
+
+li,
+ul {
+    list-style: none;
+}
+
+.na {
+    text-decoration: none;
+    color: black;
+    text-shadow: 3px 3px 3px rgb(255, 255, 255);
+    padding: 20px;
+    font-size: 22px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.na:hover {
+    color: rgb(144, 144, 144);
+}
+
+.searchb {
+    background-color: #FEF9F0;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.search {
+    margin-left: 33%;
+    margin-right: 20%;
+}
+
+.se {
+    margin-bottom: 10px;
+    height: 30px;
+    width: 70%;
+    border-radius: 1000px;
+    border: solid 3px #FEF9F0;
+    box-shadow: 6px 6px 6px rgb(142, 142, 142);
+}
+
+.se:hover {
+    border: solid 3px rgb(160, 160, 160);
+    border-color: #FEF9F0;
+}

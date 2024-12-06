@@ -1,0 +1,275 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #FEF9F0;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    font-family: 'Trebuchet MS';
+}
+
+/* Navigation bar code starts */
+
+.logob {
+    background-color: #FEF9F0;
+    display: flex;
+    position: relative;
+}
+
+.logopic {
+    padding-top: 7px;
+}
+
+.imgi {
+    height: 60px;
+    width: 90%;
+}
+
+.navi {
+    padding-top: 5px;
+    margin-top: 16px;
+    margin-left: 23.3%;
+}
+
+li,
+ul {
+    list-style: none;
+}
+
+.na {
+    text-decoration: none;
+    color: black;
+    text-shadow: 3px 3px 3px rgb(255, 255, 255);
+    padding: 20px;
+    font-size: 22px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+.na:hover {
+    color: rgb(144, 144, 144);
+}
+
+
+/* Navigation bar code ends */
+
+
+/* Search bar code starts*/
+
+.searchb {
+    background-color: #FEF9F0;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.search {
+    margin-left: 33%;
+    margin-right: 20%;
+}
+.se {
+    margin-bottom: 10px;
+    height: 30px;
+    width: 70%;
+    border-radius: 1000px;
+    border: solid 3px #FEF9F0;
+    box-shadow: 6px 6px 6px rgb(142, 142, 142);
+}
+.se:hover {
+    border: solid 3px rgb(160, 160, 160);
+    border-color: #FEF9F0;
+}
+
+
+/* Search bar code ends */
+
+/* Video code starts*/
+
+.video-container {
+    padding: 0;
+    position: relative;
+    max-width: 100%;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.mute-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    border-radius: 50%;
+    color: white;
+    font-size: 24px;
+    padding: 10px;
+    cursor: pointer;
+}
+video {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+
+/* Video code ends */
+
+
+/* image slide bar code starts  */
+
+#slider {
+    width: 100%;
+    height: 500px;
+    position: relative;
+    overflow: visible;
+}
+
+@keyframes load {
+    from {
+        left: -100%;
+    }
+    to {
+        left: 0;
+    }
+}
+.main {
+    margin: 0;
+    background: transparent;
+    padding: 0;
+}
+.slides {
+    width: 400%;
+    height: 600px;
+    position: relative;
+    -webkit-animation: slide 6s infinite;
+    -moz-animation: slide 6s infinite;
+    animation: slide 6s infinite;
+}
+.slider {
+    width: 25%;
+    height: 100%;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+.slide img {
+    width: 100%;
+    height: 100px;
+}
+.image {
+    width: 100%;
+    height: 600px;
+}
+.image img {
+    width: 100%;
+    height: 600px;
+}
+
+/* Animation  for slide bar*/
+
+@keyframes slide {
+    0%,
+    100% {
+        margin-left: 0%;
+    }
+    21% {
+        margin-left: 0%;
+    }
+    25% {
+        margin-left: -100%;
+    }
+    46% {
+        margin-left: -100%;
+    }
+    50% {
+        margin-left: -200%;
+    }
+    71% {
+        margin-left: -200%;
+    }
+    75% {
+        margin-left: -300%;
+    }
+    96% {
+        margin-left: -300%;
+    }
+}
+
+/* image slide bar code ends */
+
+/* footer code starts */
+footer {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    background-color: #FEF9F0;
+    justify-content: space-around;
+}
+.points {
+    color: #9dc1c4;
+    font-size: 30px;
+    font-weight: 600;
+    width: 300px;
+    margin: 26px 0px 10px 15px;
+    padding: 15px 0px 0px 0px;
+}
+
+.f {
+    text-shadow: 2px 2px 2px #909090;
+}
+.footer-li {
+    padding: 20px 10px 2px 0px;
+}
+.footer-ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+.footer-li a {
+    color: #000000;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+}
+.cr {
+    display: flex;
+    background-color: #202A44;
+    font-weight: 900;
+    justify-content: center;
+    margin-bottom: 6%;
+}
+.cori {
+    padding-top: 0.5%;
+    color: #fbfcde;
+    text-shadow: 2px 2px 2px #909090;
+    font-size: large;
+    height: 30px;
+    justify-content: center;
+}
+#linki,
+#insta {
+    color: rgb(15, 15, 15);
+    font-size: 29px;
+}
+i {
+    font-size: large;
+    letter-spacing: 4px;
+}
+.linki,
+.insta {
+    color: rgb(15, 15, 15);
+    font: 800;
+    font-size: large;
+    text-shadow: 4px 4px 4px hsl(0, 0%, 73%);
+}
+.ab,.con,.pp,.tc {
+    color: rgb(15, 15, 15);
+    font: 800;
+    font-size: x-large;
+    text-shadow: 4px 4px 4px hsl(0, 0%, 73%);
+}
+#about,#contact {
+    font-size: large;
+    text-shadow: 4px 4px 4px hsl(0, 0%, 73%);
+}

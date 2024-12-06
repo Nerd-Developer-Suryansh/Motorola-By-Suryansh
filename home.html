@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>MOTOROLA</title>
+    <link rel="icon" href="tlogo.ico" type="image/x-icon" height="100px" />
+    <link rel="stylesheet" href="home.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <script>
+        function toggleMute() {
+            const video = document.getElementById("video");
+            const muteIcon = document.getElementById("muteIcon");
+            video.muted = !video.muted;
+            if (video.muted) {
+                muteIcon.className = "fas fa-volume-mute";
+            } else {
+                muteIcon.className = "fas fa-volume-up";
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div class="logob">
+        <div class="logopic">
+            <img src="motorola logo.png" alt="MOTO" class="imgi" />
+        </div>
+        <div class="navi">
+            <ul>
+                <li>
+                    <a class='na' href='home.html' target='_self'>
+                        Home
+                        <i class="fas fa-home" style="font-size: 24px"></i>
+                    </a>
+                    <a href="smart phone.html" class="na">
+                        Smart Phones 
+                        <i class="fas fa-mobile" style="font-size: 24px"></i>
+                    </a>
+                    <a class='na' href='accessories.html'>
+                        Accessories
+                        <i class="fa-solid fa-headphones" style="font-size: 24px"></i>
+                    </a>
+                    <a class='na' href='contact.html' >Contact us <i class="fas fa-phone" style="font-size: 24px"></i></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="searchb">
+        <div class="search">
+            <input type="search" name="search" id="serach" class="se" placeholder=" Search.." />
+        </div>
+    </div>
+    <div class="video-container">
+        <video id="video" autoplay loop muted>
+        <source src="add.mp4" type="video/mp4" />
+      </video>
+        <button class="mute-button" onclick="toggleMute()">
+        <i id="muteIcon" class="fas fa-volume-mute"></i>
+      </button>
+    </div>
+    <div class="imgslide">
+        <section>
+            <div class="main">
+                <div id="slider">
+                    <div class="slides">
+                        <div class="slider">
+                            <div class="image">
+                                <img src="https://cdn.whatgadget.net/wp-content/uploads/2023/06/01215415/image010.jpg"> </div>
+                        </div>
+                        <div class="slider">
+                            <div class="image"> <img src="https://english.onlinekhabar.com/wp-content/uploads/2023/06/1534x2454-Mobile-4.1.jpg"> </div>
+                        </div>
+                        <div class="slider">
+                            <div class="image"> <img src="https://i.pinimg.com/736x/3d/57/aa/3d57aac85da4f5607df32166af6c03bd.jpg"> </div>
+                        </div>
+                        <div class="slider">
+                            <div class="image"> <img src="https://fdn.gsmarena.com/imgroot/news/22/10/moto-razr-2022-global-debut/inline/-1200/gsmarena_007.jpg"> </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <div class="points">
+            <img src="motorola logo.png" height="60px" widht="50px" class="footimg"><br> <br>
+            <li>
+                <a class="linkedin" aria-label="LinkedIn" href="https://x.com/Moto" target="_blank">
+                    <i class="fa-brands fa-square-x-twitter" id="linki"><br> <br><p class="linki">
+                    twitter</p></i></a>
+            </li> <br> <br>
+            <li>
+                <a class="instagram" aria-label="Instagram" href="https://www.instagram.com/motorolain/" target="_blank">
+                    <i class="fa-brands fa-instagram" id="insta"><br> <br><p class="insta">
+                    Instagram</p></i></a>
+            </li>
+        </div>
+        <div class="points">
+            <p class="f">COMPANY</p>
+            <ul class="footer-ul">
+                <li class="footer-li">
+                    <a href="https://motorolanews.com/" target="_blank ">
+                        <p class="ab">About Us <i class="fa-duotone fa-solid fa-address-card"></i> </p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="points">
+            <p class="f">CONTACT</p>
+            <ul class="footer-ul">
+                <li class="footer-li">
+                    <a href="C:\Users\surya\Downloads\motorola clone\motorola clone\cont.html" target="_blank">
+                        <p class="con">Contact Us <i class="fa-regular fa-address-book" id="contact"></i> </p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="points">
+            <p class="f">LEGAL</p>
+            <ul class="footer-ul">
+                <li class="footer-li">
+                    <a href="https://www.motorola.in/legal/terms-of-use" target="_blank">
+                        <p class="tc">Terms & Conditions &copy; </p>
+                    </a>
+                </li>
+                <li class="footer-li">
+                    <a href="https://www.motorola.in/legal/privacy-policy" target="_blank">
+                        <p class="pp">Privacy Policy <i class="fa-solid fa-lock"></i></p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <div class="cr">
+        <p class="cori">&copy; 2024 Motorola. All Rights Reserved.</p>
+    </div>
+</body>
+
+</html>

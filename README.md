@@ -1,5 +1,5 @@
 # Motorola Project by Suryansh Niranjan
-![Motorola Icon](motorola.png)
+![Motorola Icon](motorola logo.png)
 
 Explore the seamless blend of technology and innovation with the **Motorola Project**, a web application designed to showcase the essence of Motorola's premium products. Deployed live at [Motorola by Nerd Developer Suryansh Niranjan](https://motorola-by-nerd-developer-suryansh.netlify.app/), this project delivers an immersive user experience with a focus on cutting-edge design and functionality.
 
